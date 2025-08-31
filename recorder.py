@@ -1,3 +1,7 @@
+#COPYRIGHT Polsko-Japońska Akademia Technik Komputerowych 2025
+#Piotr Baster s27406
+
+
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import sounddevice as sd
@@ -470,4 +474,5 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"FATAL: Błąd inicjalizacji audio: {e}")
         root_err = tk.Tk(); root_err.withdraw()
+
         messagebox.showerror("Krytyczny błąd", f"Nie można zainicjalizować systemu audio.\nSzczegóły: {e}")
