@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+#COPYRIGHT Polsko-Japońska Akademia Technik Komputerowych 2025
+#Piotr Baster s27406
 
 # --------------------------------------------------------------------------------
 # Import niezbędnych bibliotek
@@ -1165,3 +1167,4 @@ if __name__ == "__main__":
     app = WavAnalyzerApp(root)
     # Uruchom główną pętlę zdarzeń Tkinter, która czeka na akcje użytkownika
     root.mainloop()
+
